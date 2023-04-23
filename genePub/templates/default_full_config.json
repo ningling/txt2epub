@@ -1,0 +1,33 @@
+{
+  "Version": "0.1",
+  "Program Name": "txt->ePub转换器",
+  "src_txt": "",
+  "json file name": "config.json",
+  "output_dir": "output",
+  "regex_strings": ["第[0123456789零〇一二两三四五六七八九十百佰千仟万萬]{1,50}章.*", "卷[零〇一二两三四五六七八九十百佰千仟万萬]{1,50}.*"],
+  "chapter file prefix": "chapter-",
+  "Chapter0": "序言",
+  "FILE_TO_COPY": ["stylesheet.css","page_styles.css","mimetype","META-INF/container.xml"],
+  "TEMPLATE_FILES":
+  {
+    "toc.ncx": "toc_template.ncx",
+    "toc_navPoint": "navPoint_template.txt",
+    "content.opf": "content_template.opf",
+    "chapters.html": "chapter_template.html",
+    "titlepage.xhtml": "titlepage_template.xhtml"
+  },
+  "TEMPLATE_STRINGS":
+  {
+    "manifest_item":"     <item id=\"[PAGE_ID]\" href=\"[PAGE_FILE]\" media-type=\"application/xhtml+xml\"/>\n",
+    "spine_item": "    <itemref idref=\"[PAGE_ID]\"/>\n"
+  },
+  "META-DATA": 
+  {
+    "BOOK_AUTHOR": "未知作者",
+    "BOOK_NAME": "未知书名",
+    "CONTRIBUTOR": "孤独人马座",
+    "GENERATOR" : "",
+    "UUID": "",
+    "TOC_DEPTH": "1"
+  }  
+}

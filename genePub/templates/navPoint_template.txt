@@ -1,0 +1,6 @@
+    <navPoint id="[NAV_ID]" playOrder="[PLAYORDER]">
+      <navLabel>
+        <text>[CHAPTER_TITLE]</text>
+      </navLabel>
+      <content src="[CHAPTER_FILE]"/>
+    </navPoint>

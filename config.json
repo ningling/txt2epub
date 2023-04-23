@@ -1,0 +1,11 @@
+{
+  "src_txt": "sample_txt/测试文档.txt",
+  "output_dir": "epub_output",
+  "chapter file prefix": "index_split_",
+  "META-DATA": 
+  {
+    "BOOK_AUTHOR": "Ning Ling",
+    "BOOK_NAME": "测试文档",
+    "CONTRIBUTOR": "孤独人马座"
+  }
+}
